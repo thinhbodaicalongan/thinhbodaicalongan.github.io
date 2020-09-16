@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;
+padding: 0;
+}
+@font-face {
+  font-family: SVN-Unthrift;
+  src: url(../font/SVN-Unthrift.otf);
+}
+html {scroll-behavior: smooth
+}
+.background
+{
+	width: 100% ;
+	height: 100% ;
+	background-color:aliceblue;
+	
+}
+
+.menu
+{
+	width:100%;
+	height:-220px;
+ 	z-index: 100;
+	position: fixed;
+	float: right;
+	background-color: aliceblue;
+	opacity: 50%;
+	padding-top: -1150px;
+	padding-left: 400px;
+	font-size: 25px;
+	box-sizing: border-box;
+	font-family: "SVN-Unthrift";
+}
+.banner1
+{
+	width:100%;
+	height: 700px;
+	background-color: black;
+	background: url("../images/8.jpg") no-repeat center fixed;
+
+	
+	
+}
+.content
+{
+	width: 100%;
+	height: 350px;
+	background-color:aliceblue;
+	text-align:justify;
+	font-size: 17px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 150px;
+	box-sizing: border-box;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	
+}
+.textbanner2
+{
+	width:100%;
+	height: 800px;
+	background-color:#090809;
+	color: aliceblue;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+
+}
+.khungbanner2
+{
+	width: 70%;
+	height: 250px;
+	float: right;
+	font-size: 17px;
+	padding-right: 40px;
+	padding-top: 150px;
+    text-align:right;
+	box-sizing: border-box;
+	z-index: 999;
+	
+
+
+}
+
+.banner2
+{
+	width: 70%;
+	height: 400px;
+	z-index: 999;
+	float: left;
+	padding-top: 150px;
+}
+
+.khungthuvien
+{
+	width: 80%;
+	height: 700px;
+	margin: 0 10% 0 10%;
+	padding-top: 150px;
+	position:relative;
+	
+}
+.hinhthuvien
+{
+	width: 250px;
+	height: 350px;
+	float:left;
+	margin-left: 100px;
+	margin-right: 30px;
+	background-color: rosybrown;
+	position:relative;
+}
+.bottom
+{
+	width: 100%;
+	height: 400px;
+	position:absolute;
+	background: url("../images/6.jpg") no-repeat center center;
+
+
+}
+.contact
+{	width: 100%;
+	height: 400px;
+	top: 150px;
+	z-index: 20;
+	position:relative;
+	text-align: center;
+	color:aliceblue;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	
+	
+}
+
+ul li
+{
+	float: left;
+	padding: 60px 75px; 
+	position: relative;
+}
+ul li a
+{
+	text-decoration: none;
+	color:#122C13;
+	text-decoration-color:#081F00;
+
+}
+ul li:hover
+{
+	border-bottom-style: double;
+
+}
+
+ul li ul li
+{
+	width: 100px;
+	height: 5px;
+	background-color: whitesmoke;
+}
+ul li:hover li
+{
+	visibility: visible;
+}
